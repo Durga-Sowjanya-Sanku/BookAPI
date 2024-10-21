@@ -1,0 +1,23 @@
+{
+  "name": "book-api",
+  "version": "2.0.0",
+  "description": "A simple API for a book management",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server" : "nodemon sever.js"
+  },
+  "keywords": [
+    "expressjs",
+    "nodejs",
+    "MERN"
+  ],
+  "author": "Sowjanya",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
